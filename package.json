@@ -1,0 +1,39 @@
+{
+  "name": "glint-vscode",
+  "displayName": "Glint Theme",
+  "description": "",
+  "version": "0.1.0",
+  "publisher": "mjlaufer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjlaufer/glint-vscode"
+  },
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glint",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glint.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
