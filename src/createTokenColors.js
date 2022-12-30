@@ -59,14 +59,14 @@ module.exports = (theme) => [
         name: 'Number',
         scope: 'constant.numeric, keyword.other.unit',
         settings: {
-            foreground: theme.magentaBright,
+            foreground: theme.blue,
         },
     },
     {
         name: 'Regex, Escape Characters',
         scope: 'string.regexp, constant.character, constant.character.escape, support.constant',
         settings: {
-            foreground: theme.blue,
+            foreground: theme.magenta,
         },
     },
     {
@@ -164,7 +164,7 @@ module.exports = (theme) => [
         name: 'Changed',
         scope: 'markup.changed, markup.changed.git_gutter',
         settings: {
-            foreground: theme.blue,
+            foreground: theme.cyan,
         },
     },
     {
@@ -199,7 +199,7 @@ module.exports = (theme) => [
     {
         scope: 'token.info-token',
         settings: {
-            foreground: theme.blueDiag,
+            foreground: theme.cyanDiag,
         },
     },
     {

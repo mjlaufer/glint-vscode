@@ -17,9 +17,9 @@ module.exports = (colors) => ({
     'textSeparator.foreground': colors.fg2,
 
     // Button Control - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
-    'button.background': colors.yellow,
+    'button.background': colors.blue,
     'button.foreground': colors.bg1,
-    'button.hoverBackground': colors.yellowBright,
+    'button.hoverBackground': colors.blueBright,
 
     // Dropdown Control - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
     'dropdown.background': colors.bg2,
@@ -36,9 +36,9 @@ module.exports = (colors) => ({
     'inputValidation.errorBackground': colors.redDiag,
     'inputValidation.errorForeground': colors.fg1,
     'inputValidation.errorBorder': colors.redDiag,
-    'inputValidation.infoBackground': colors.blueDiag,
+    'inputValidation.infoBackground': colors.cyanDiag,
     'inputValidation.infoForeground': colors.fg1,
-    'inputValidation.infoBorder': colors.blueDiag,
+    'inputValidation.infoBorder': colors.cyanDiag,
     'inputValidation.warningBackground': colors.yellowDiag,
     'inputValidation.warningForeground': colors.bg1,
     'inputValidation.warningBorder': colors.yellowDiag,
@@ -54,7 +54,7 @@ module.exports = (colors) => ({
     'badge.background': colors.bg3,
 
     // Progress Bar - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
-    'progressBar.background': colors.yellow,
+    'progressBar.background': colors.blue,
 
     // Lists and Trees - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees
     'list.activeSelectionBackground': colors.bg3,
@@ -82,7 +82,7 @@ module.exports = (colors) => ({
     'activityBar.foreground': colors.fg1,
     'activityBar.inactiveForeground': colors.fg2,
     'activityBar.border': colors.bg3,
-    'activityBarBadge.background': colors.yellow,
+    'activityBarBadge.background': colors.blue,
     'activityBarBadge.foreground': colors.bg1,
 
     // Side Bar - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
@@ -162,18 +162,18 @@ module.exports = (colors) => ({
     'editorOverviewRuler.selectionHighlightForeground': colors.bg3,
     'editorOverviewRuler.wordHighlightForeground': colors.bg3,
     'editorOverviewRuler.wordHighlightStrongForeground': colors.bg3,
-    'editorOverviewRuler.modifiedForeground': colors.blue,
+    'editorOverviewRuler.modifiedForeground': colors.cyan,
     'editorOverviewRuler.addedForeground': colors.green,
     'editorOverviewRuler.deletedForeground': colors.red,
     'editorOverviewRuler.errorForeground': colors.redDiag,
     'editorOverviewRuler.warningForeground': colors.yellowDiag,
-    'editorOverviewRuler.infoForeground': colors.blueDiag,
+    'editorOverviewRuler.infoForeground': colors.cyanDiag,
     'editorError.foreground': colors.redDiag,
     'editorError.border': colors.bg1,
     'editorWarning.foreground': colors.yellowDiag,
     'editorWarning.border': colors.bg1,
     'editorGutter.background': colors.bg1,
-    'editorGutter.modifiedBackground': colors.blue,
+    'editorGutter.modifiedBackground': colors.cyan,
     'editorGutter.addedBackground': colors.green,
     'editorGutter.deletedBackground': colors.red,
 
