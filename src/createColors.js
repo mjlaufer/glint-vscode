@@ -148,7 +148,7 @@ module.exports = (colors) => ({
     'editorLink.activeForeground': colors.blue,
     'editor.rangeHighlightBackground': colors.bg3,
     'editorWhitespace.foreground': colors.fg3,
-    'editorIndentGuide.background': colors.fg3,
+    'editorIndentGuide.background': colors.bg3,
     'editorIndentGuide.activeBackground': colors.yellow,
     'editorRuler.foreground': colors.fg3,
     'editorCodeLens.foreground': colors.fg3,

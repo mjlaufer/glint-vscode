@@ -111,7 +111,7 @@
     "editorLink.activeForeground": "#a197e3",
     "editor.rangeHighlightBackground": "#353535",
     "editorWhitespace.foreground": "#6d6d6d",
-    "editorIndentGuide.background": "#6d6d6d",
+    "editorIndentGuide.background": "#353535",
     "editorIndentGuide.activeBackground": "#d1ab60",
     "editorRuler.foreground": "#6d6d6d",
     "editorCodeLens.foreground": "#6d6d6d",
