@@ -231,7 +231,7 @@ module.exports = (colors) => ({
     'panelTitle.inactiveForeground': colors.fg2,
 
     // Status Bar Colors - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
-    'statusBar.background': colors.bg1,
+    'statusBar.background': colors.bg2,
     'statusBar.foreground': colors.fg2,
     'statusBar.debuggingBackground': colors.bg1,
     'statusBar.debuggingForeground': colors.fg1,
